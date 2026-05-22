@@ -1,0 +1,8 @@
+{
+  "name": "智慧停車導航 (Smart Park)",
+  "description": "即時查詢全台公有停車場資訊，結合車型尺寸篩選與實時空位查詢，提供導航功能。",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

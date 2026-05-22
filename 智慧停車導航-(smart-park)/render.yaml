@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: smart-park-tw
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GOOGLE_MAPS_PLATFORM_KEY
+        sync: false # 需在 Render UI 手動填入
+      - key: GEMINI_API_KEY
+        sync: false # 需在 Render UI 手動填入
